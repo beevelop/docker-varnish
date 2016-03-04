@@ -1,0 +1,13 @@
+
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t varnish .
+  - docker run --name hello tutum/hello-world
+  - docker run -p 11235:80--name varnish --link hello:backend -d varnish
+  - sleep 5
+  - curl -f localhost:11235
+  - docker logs varnish
