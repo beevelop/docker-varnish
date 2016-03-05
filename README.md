@@ -17,5 +17,5 @@ docker run -d -p 80:80 --name varnish --link webapp:backend beevelop/varnish
 ```
 
 ## Configuration
-`VARNISH_CACHE_SIZE` (default: 128m)
-`BACKEND_PORT` (default: 80)
+- `VARNISH_CACHE_SIZE` (default: 128m)
+- `BACKEND_PORT` (default: 80)
