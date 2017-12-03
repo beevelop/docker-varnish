@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.7
 
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
