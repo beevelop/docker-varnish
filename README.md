@@ -1,4 +1,3 @@
-[![Travis](https://shields.beevelop.com/travis/beevelop/docker-varnish.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-varnish)
 [![Docker Pulls](https://shields.beevelop.com/docker/pulls/beevelop/varnish.svg?style=flat-square)](https://links.beevelop.com/d-varnish)
 [![ImageLayers Layers](https://shields.beevelop.com/imagelayers/layers/beevelop/varnish/latest.svg?style=flat-square)](https://links.beevelop.com/d-varnish)
 [![ImageLayers Size](https://shields.beevelop.com/imagelayers/image-size/beevelop/varnish/latest.svg?style=flat-square)](https://links.beevelop.com/d-varnish)
@@ -17,5 +16,6 @@ docker run -d -p 80:80 --name varnish --link webapp:backend beevelop/varnish
 ```
 
 ## Configuration
+
 - `VARNISH_CACHE_SIZE` (default: 128m)
 - `BACKEND_PORT` (default: 80)

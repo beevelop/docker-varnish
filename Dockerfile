@@ -1,6 +1,4 @@
-FROM alpine:3.7
-
-MAINTAINER Maik Hummel <m@ikhummel.com>
+FROM alpine
 
 ENV VARNISH_CACHE_SIZE=128m \
     BACKEND_PORT=80
